@@ -69,7 +69,9 @@ body {
 }
 
 .navbar_link:hover {
-    color: #364fc7;
+    color: yellowgreen;
+    background-color: white;
+    padding: 0 10px;
 }
 
 .mobile_nav_btn {
@@ -163,6 +165,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     max-width: 50%;
+    transition: all 0.1s ease-out;
 }
 
 .left-content {
@@ -201,8 +204,9 @@ body {
     width: 200px;
     height: 50px;
     font-weight: bold;
-
     background-color: yellow;
+    cursor: pointer;
+    border: 2px solid yellow;
 }
 
 .content {
@@ -267,22 +271,37 @@ body {
 .boxes {
     background-color: white;
     color: black;
-    height: 650px;
-    max-width: 30%;
+    height: 650px;  
 }
+
 
 #box1 {
     padding: 80px;
     background-color: gray;
+    border-radius: 40px;
+}
+#box1:hover{
+    height: 700px;
+    width: 400px;
 }
 
 #box2 {
+    border-radius: 40px;
     padding: 80px;
+}
+#box2:hover{
+    height: 700px;
+    width: 450px;
 }
 
 #box3 {
     padding: 80px;
     background-color: gray;
+    border-radius: 40px;
+}
+#box3:hover{
+    height: 700px;
+    width: 420px;
 }
 
 .flexi {
